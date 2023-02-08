@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script type="text/javascript" src="./script.js"> </script>
+</head>
+<body>
+    
+    <div id="NBar">
+        <nav class="navbar" id="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id=""/>
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                  <li> <a href="/" class="li-item">Ana Sayfa</a> </li>
+                  <li> 
+                    <div class="dropdown"> 
+                      <a class="li-item" id="dropdown"> icerikler </a>
+                      <div class="dropdown-content"> 
+                        <a href="/blogs">Blog</a>
+                        <a href="/">anketler</a>
+                        <a href="/">SearchFinder</a>
+                        <a href="/">To-Do</a>
+                        <a href="/">yorumlar</a>
+                      </div>
+                    </div>                      
+                  </li>
+                  <li> <a href="/info" class="li-item">Hakkimda</a> </li>
+                  <li> <a href="/" class="li-item">iletisim</a> </li>
+              
+                </ul>
+                <a href="/" class="logo">
+                  <img id="logo" src={logo} alt="Teory-Logo" class="logo"/>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div id="page-body">
+
+        <div class="page-top">
+            <div id='show_bg_2'></div>
+            <div class="bottom-left">
+                <h1>Teory Crew'e Hoş Geldiniz!</h1>
+                <a href="/" class="li-item"><i class="fa-brands fa-42-group"></i>DETAYLI BILGI →</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
